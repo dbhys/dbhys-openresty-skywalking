@@ -2,7 +2,7 @@ package = "dbhys-openresty-skywalking"
 version = "0.1.0-1"
 source = {
    url = "git://github.com/dbhys/dbhys-openresty-skywalking",
-   branch = "0.1.0-1",
+   tag = "v0.1.0-1",
 }
 
 description = {
