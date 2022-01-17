@@ -2,11 +2,11 @@ package = "dbhys-openresty-skywalking"
 version = "0.1.0-1"
 source = {
    url = "git://github.com/dbhys/dbhys-openresty-skywalking",
-   tag = "v0.1.0-1",
+   branch = "0.1.0-1",
 }
 
 description = {
-   summary = "This module is a fork of apache/skywalking-nginx-lua, and this version is checkout from commit "507eea2c0d8adc8a6da3593dea7f18bc67ef14dd".
+   summary = "This module is a fork of apache/skywalking-nginx-lua, and this version is checkout from commit[507eea2c0d8adc8a6da3593dea7f18bc67ef14dd].
 Beause we use skywalking 7.0, so we want use this commit and create new version which contains source rock.",
    homepage = "https://github.com/dbhys/dbhys-openresty-skywalking",
    maintainer ="wangxudong<wangxudong@dbhys.com>",
