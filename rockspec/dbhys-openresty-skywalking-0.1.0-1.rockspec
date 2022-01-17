@@ -6,8 +6,9 @@ source = {
 }
 
 description = {
-   summary = "The Nginx Lua agent for Apache SkyWalking",
-   homepage = "https://github.com/dbhys/skywalking-nginx-lua",
+   summary = "This module is a fork of apache/skywalking-nginx-lua, and this version is checkout from commit "507eea2c0d8adc8a6da3593dea7f18bc67ef14dd".
+Beause we use skywalking 7.0, so we want use this commit and create new version which contains source rock.",
+   homepage = "https://github.com/dbhys/dbhys-openresty-skywalking",
    maintainer ="wangxudong<wangxudong@dbhys.com>",
    license = "Apache License 2.0"
 }

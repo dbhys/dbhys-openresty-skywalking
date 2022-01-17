@@ -8,8 +8,8 @@ Apache SkyWalking Nginx Agent
 ![CI](https://github.com/apache/skywalking-nginx-lua/workflows/CI/badge.svg?branch=master)
 
 
-This module is fork from Apache SkyWalking, and this version is checkout from commit "507eea2c0d8adc8a6da3593dea7f18bc67ef14dd".
-We use skywalking 7.0, and we want use this commit, then we'll create new version which contains source rock.
+This module is a fork of apache/skywalking-nginx-lua, and this version is checkout from commit "507eea2c0d8adc8a6da3593dea7f18bc67ef14dd".
+Beause we use skywalking 7.0, so we want use this commit and create new version which contains source rock.
 
 [**SkyWalking**](https://github.com/apache/skywalking) Nginx Agent provides the native tracing capability for Nginx powered by Nginx LUA module.
 
