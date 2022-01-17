@@ -17,7 +17,7 @@ Beause we use skywalking 7.0, so we want use this commit and create new version 
 }
 
 dependencies = {
-   "lua-resty-http = 0.15-0"
+   "lua-resty-http >= 0.16-0"
 }
 
 build = {
