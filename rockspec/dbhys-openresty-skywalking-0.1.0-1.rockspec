@@ -1,13 +1,14 @@
-package = "skywalking-nginx-lua"
+package = "dbhys-openresty-skywalking"
 version = "0.1.0-1"
 source = {
-   url = "git://github.com/dbhys/skywalking-nginx-lua",
+   url = "git://github.com/dbhys/dbhys-openresty-skywalking",
    tag = "v0.1.0-1",
 }
 
 description = {
    summary = "The Nginx Lua agent for Apache SkyWalking",
    homepage = "https://github.com/dbhys/skywalking-nginx-lua",
+   maintainer ="wangxudong<wangxudong@dbhys.com>",
    license = "Apache License 2.0"
 }
 
