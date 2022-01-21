@@ -15,8 +15,8 @@
 -- limitations under the License.
 --
 
-local Util = require('util')
-local Span = require('span')
+local Util = require('skywalking/util')
+local Span = require('skywalking/span')
 
 -------------- Internal Object-------------
 local Internal = {}

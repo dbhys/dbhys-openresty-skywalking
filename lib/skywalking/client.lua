@@ -81,7 +81,7 @@ function Client:registerService(metadata_buffer, backend_http_uri)
     local serviceName = metadata_buffer:get('serviceName')
 
     local cjson = require('cjson')
-    local serviceRegister = require("register").newServiceRegister(serviceName)
+    local serviceRegister = require("skywalking/register").newServiceRegister(serviceName)
     local serviceRegisterParam = cjson.encode(serviceRegister)
 
     local http = require('resty.http')
@@ -123,7 +123,7 @@ function Client:registerServiceInstance(metadata_buffer, backend_http_uri)
     metadata_buffer:set('serviceInstanceUUID', serviceInstName)
 
     local cjson = require('cjson')
-    local serviceInstanceRegister = require("register").newServiceInstanceRegister(
+    local serviceInstanceRegister = require("skywalking/register").newServiceInstanceRegister(
         metadata_buffer:get('serviceId'),
         serviceInstName,
         ngx.now() * 1000)
@@ -167,7 +167,7 @@ function Client:ping(metadata_buffer, backend_http_uri)
     local ERR = ngx.ERR
 
     local cjson = require('cjson')
-    local pingPkg = require("register").newServiceInstancePingPkg(
+    local pingPkg = require("skywalking/register").newServiceInstancePingPkg(
         metadata_buffer:get('serviceInstId'),
         metadata_buffer:get('serviceInstanceUUID'),
         ngx.now() * 1000)
